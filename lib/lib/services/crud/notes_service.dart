@@ -143,8 +143,6 @@ class NotesService {
     } else {
       return DatabaseUser.fromRow(results.first);
     }
-
-    return DatabaseUser.fromRow(results.first);
   }
 
   Future<DatabaseUser> createUser({required String email}) async {
